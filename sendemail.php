@@ -16,7 +16,7 @@ $correo->Host = "smtp.gmail.com";
 $correo->Port = 587;
 $correo->Username   = "CORREO DE MARCIA O LO QUE SEA";
 $correo->Password   = "CONTRASEÑA DE ESO DE ARRIBA";
-$correo->SetFrom("m.cussatti@gmail.com", "Robot);
+$correo->SetFrom("m.cussatti@gmail.com", "Robot");
 $correo->AddAddress($from , $name);
 $correo->Subject = $subject;
 $correo->MsgHTML($message);
